@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+  --Dark-desaturated-blue: hsl(244, 38%, 16%);
+  --main-background-color: hsl(233, 47%, 7%);
+  --Soft-violet: hsl(277, 64%, 61%);
+  --text-color: #fff;
+}
+
+body {
+  width: 1400px;
+  background-color: var(--main-background-color) ;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .image-div img {
+height: 33rem;
+width: 42rem;
+}
+
+main #text-div {
+  color: var(--text-color);
+  background-color: var(--Dark-desaturated-blue);
+  border: 1px solid transparent;
+  height: 33rem;
+  width: 42rem;
+  padding: 2rem 4.5rem 0 2.5rem;
+}
+
+#text-div h3 {
+  font-size: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2.5;
+  padding-bottom: 2.5rem;
+}
+
+#text-div p {
+  font-size: 1.4rem;
+  line-height: 2;
+  letter-spacing: 0.01rem;
+  padding-right: 1.4rem;
+}
