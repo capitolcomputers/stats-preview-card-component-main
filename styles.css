@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -34,20 +36,27 @@ main #text-div {
   background-color: var(--Dark-desaturated-blue);
   border: 1px solid transparent;
   height: 33rem;
-  width: 42rem;
-  padding: 2rem 4.5rem 0 2.5rem;
+  width: 43rem;
+  padding: 3.3rem 4rem 0 3.3rem;
 }
 
 #text-div h3 {
   font-size: 3rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', sans-serif;
+  font: 700;
   letter-spacing: 2.5;
   padding-bottom: 2.5rem;
 }
 
+#text-div h3 span {
+color: var(--Soft-violet);
+}
+
 #text-div p {
-  font-size: 1.4rem;
+  font-size: 1.33rem;
   line-height: 2;
   letter-spacing: 0.01rem;
   padding-right: 1.4rem;
+  max-width: 90%;
+  font: 400;
 }
