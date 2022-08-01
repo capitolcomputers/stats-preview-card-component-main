@@ -20,7 +20,7 @@ body {
 }
 
 main {
-  height: 100vh;
+  height: 98vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,8 +36,8 @@ main #text-div {
   background-color: var(--Dark-desaturated-blue);
   border: 1px solid transparent;
   height: 33rem;
-  width: 43rem;
-  padding: 3.3rem 4rem 0 3.3rem;
+  width: 44rem;
+  padding: 3.7rem 4rem 0 5rem;
 }
 
 #text-div h3 {
@@ -54,9 +54,60 @@ color: var(--Soft-violet);
 
 #text-div p {
   font-size: 1.33rem;
+  font-family: 'Inter', sans-serif;
   line-height: 2;
   letter-spacing: 0.01rem;
   padding-right: 1.4rem;
-  max-width: 90%;
   font: 400;
+  padding-bottom: 3.4rem;
+}
+
+#text-div .infotext-container {
+  display: flex;
+}
+
+#text-div .infotext-container .info-text {
+  display: inline-block;
+  padding-right: 6rem;
+  font-size: 1rem;
+  letter-spacing: 0.07rem;
+}
+
+#text-div .infotext-container .info-text span {
+   display: inline-block;
+  font-size: 2rem;
+  font-weight: bolder;
+  font: 800;
+  padding-bottom: 0.6rem;
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+     width: 400px;
+  }
+
+  main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+main .image-div img {
+/* height: 30rem; */
+}
+
+main #text-div {
+  /* color: var(--text-color); */
+  /* background-color: var(--Dark-desaturated-blue); */
+  border: 1px solid transparent;
+  height: 75vh;
+  /* width: 44rem; */
+  /* padding: 3.7rem 4rem 0 5rem; */
+}
+
+footer {
+
+}
+
 }
