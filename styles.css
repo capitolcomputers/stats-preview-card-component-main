@@ -86,7 +86,7 @@ color: var(--Soft-violet);
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 300px)  {
   body {
     background-color: ;
      max-width: 375px;
@@ -94,10 +94,11 @@ color: var(--Soft-violet);
   }
   
   main {  
+    justify-content: center;
     height: fit-content;
     display: flex;
     flex-direction: column-reverse;
-    border-radius: 10%;
+    border-radius: 40%;
 }
 
 main .image-div #mobile-img {
