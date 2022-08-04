@@ -15,6 +15,7 @@
 }
 
 body {
+  margin: 0 auto;
   width: 1400px;
   background-color: var(--main-background-color) ;
 }
@@ -86,9 +87,9 @@ color: var(--Soft-violet);
 }
 
 
-@media screen and (min-width: 300px)  {
+@media only screen and (max-width: 750px)  {
   body {
-    background-color: ;
+    /* margin: auto; */
      max-width: 375px;
      padding: 3rem 2rem 2rem;
   }
