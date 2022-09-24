@@ -26,6 +26,7 @@ main {
   justify-content: center;
   align-items: center;
 }
+/* TODO PLEASE */
 
 main .image-div .desktop-img {
 height: 33rem;
@@ -67,6 +68,7 @@ color: var(--Soft-violet);
   padding-bottom: 3.4rem;
 }
 
+/* BUG */
 #text-div .infotext-container {
   display: flex;
 }
